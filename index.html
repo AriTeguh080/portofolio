@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Ari Teguh Prasetya</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="header-container">
+      <div class="name-title">
+        <h1>BIODATA</h1>
+        <p>Pt Ari Teguh Prasetya</p>
+      </div>
+      <nav class="social-icons">
+        <a href="mailto:ariteguh2005@gmail.com" target="_blank" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://instagram.com/ariteguhh" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="profile">
+      <img src="assets/ariteguh.jpeg" alt="Foto Ari Teguh Prasetya">
+      <div class="info">
+        <span class="tag">Hello & Welcome</span>
+        <h2>I'M <span class="highlight">PT ARI TEGUH PRASETYA</span></h2>
+        <p class="asa">Mahasiswa Ilmu Komputer yang Gemar Belajar Coding</p>
+        
+        <ul>
+          <li><span class="label">Umur</span><span class="value">: 20</span></li>
+          <li><span class="label">Nim</span><span class="value">: 2315101080</span></li>
+          <li><span class="label">Prodi</span><span class="value">: Ilmu Komputer</span></li>
+          <li><span class="label">Jurusan</span><span class="value">: Teknik Informatika</span></li>
+          <li><span class="label">Fakultas</span><span class="value">: Teknik dan Kejuruan</span></li>
+          <li><span class="label">Skill</span><span class="value">: HTML, CSS, Network</span></li>
+        </ul>
+
+
+        <div class="social-bar">
+          <a href="mailto:ariteguh2005@gmail.com" target="_blank" aria-label="Email">
+            <p>Email: <i class="fas fa-envelope"></i></p>
+          </a>
+          <a href="https://instagram.com/ariteguhh" target="_blank" aria-label="Instagram">
+            <p>IG: <i class="fab fa-instagram"></i></p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <nav class="menu">
+      <button onclick="showContent('education')">EDUCATION</button>
+      <button onclick="showContent('certificate')">CERTIFICATE</button>
+      <button onclick="showContent('project')">PROJECT</button>
+    </nav>
+
+
+    <section id="education" class="content-box">
+      <h2>EDUCATION</h2>
+      <div class="timeline">
+        <div class="box">
+          <h3>S1 ILMU KOMPUTER</h3>
+          <p>Universitas Pendidikan Ganesha</p>
+          <span>2023 - Sekarang</span>
+        </div>
+        <div class="box">
+          <h3>MIPA</h3>
+          <p>SMAN 1 Singaraja</p>
+          <span>2020 - 2023</span>
+        </div>
+        <div class="box">
+          <h3>UMUM</h3>
+          <p>SMPN 6 Singaraja</p>
+          <span>2017 - 2022</span>
+        </div>
+        <div class="box">
+          <h3>UMUM</h3>
+          <p>SDN 1 Banyuning</p>
+          <span>2010 - 2017</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificate" class="content-box" style="display:none;">
+      <h2>CERTIFICATE</h2>
+      <div class="timeline">
+        <div class="box">
+          <h3>Sertifikat Introduction C++</h3>
+          <p>Solo Learn</p>
+          <span>2023</span>
+          <img src="assets/c++.jpg" alt="Sertifikat C++">
+        </div>
+        <div class="box">
+          <h3>Sertifikat Intermidiate C++</h3>
+          <p>Solo Learn</p>
+          <span>2023</span>
+          <img src="assets/inter.jpg" alt="Sertifikat c++">
+        </div>
+        <div class="box">
+          <h3>Sertifikat Python</h3>
+          <p>Solo Learn</p>
+          <span>2023</span>
+          <img src="assets/python.jpg" alt="Sertifikat Python">
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="content-box" style="display:none;">
+      <h2>PROJECT</h2>
+        <div class="box">
+          <h3>Project Fishing Rod 1 (Figma)</h3>
+          <p>Leader and UI/UX Designer</p>
+          <span>2023(SMT 1)</span>
+          <img src="assets/ikan.png" alt="gambar projek">
+        </div>
+        <div class="box">
+          <h3>Project Fishing Rod 2 (Vercel)</h3>
+          <p>Leader, UI/UX Designer, and Backend</p>
+          <span>2024(SMT 2)</span>
+          <img src="" alt="gambar projek">
+        </div>
+        <div class="box">
+          <h3>Project App Laundry (PBO)</h3>
+          <p>Leader, and Backend</p>
+          <span>2024(SMT 3)</span>
+          <img src="" alt="gambar projek">
+        </div>
+        <div class="box">
+          <h3>Project Web Desa Adat (Figma)</h3>
+          <p>Leader, and UI/UX Designer</p>
+          <span>2025 (SMT 4)</span>
+          <img src="" alt="gambar projek">
+        </div>
+        <div class="box">
+          <h3>Project Web Paslon (Web)</h3>
+          <p>Leader, UI/UX Designer, Forntend, and Backend</p>
+          <span>2025 (SMT 5)</span>
+          <img src="assets/webpaslon.png" alt="gambar projek">
+        </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="footer-container">
+      <p>© 2025 Pt Ari Teguh Prasetya. Semoga Lulus Tepat Waktu.</p>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
